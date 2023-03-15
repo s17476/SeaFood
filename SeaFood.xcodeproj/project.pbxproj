@@ -13,6 +13,7 @@
 		8B0719F729C1FC09003217A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B0719F529C1FC09003217A2 /* Main.storyboard */; };
 		8B0719F929C1FC0C003217A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B0719F829C1FC0C003217A2 /* Assets.xcassets */; };
 		8B0719FC29C1FC0C003217A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B0719FA29C1FC0C003217A2 /* LaunchScreen.storyboard */; };
+		8B071A0429C1FCA4003217A2 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 8B071A0329C1FCA4003217A2 /* Inceptionv3.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		8B0719F829C1FC0C003217A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8B0719FB29C1FC0C003217A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8B0719FD29C1FC0C003217A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B071A0329C1FCA4003217A2 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				8B0719F829C1FC0C003217A2 /* Assets.xcassets */,
 				8B0719FA29C1FC0C003217A2 /* LaunchScreen.storyboard */,
 				8B0719FD29C1FC0C003217A2 /* Info.plist */,
+				8B071A0329C1FCA4003217A2 /* Inceptionv3.mlmodel */,
 			);
 			path = SeaFood;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B0719F429C1FC09003217A2 /* ViewController.swift in Sources */,
+				8B071A0429C1FCA4003217A2 /* Inceptionv3.mlmodel in Sources */,
 				8B0719F029C1FC09003217A2 /* AppDelegate.swift in Sources */,
 				8B0719F229C1FC09003217A2 /* SceneDelegate.swift in Sources */,
 			);
